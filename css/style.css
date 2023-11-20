@@ -1,0 +1,1136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    gap: 50rem;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.row img{
+    width: 280px;
+    height: 100px;
+    margin: 0;
+}
+
+.right_side{
+    display: flex;
+    gap: 1rem;
+}
+
+.language{
+    padding: 8px 13px;
+    border-radius: 8px;
+}
+
+.sing_in{
+    padding: 8px 16px;
+    border-radius: 8px;
+    /* border-color: red; */
+    background-color: red;
+}
+.drop_down{
+    display: none;
+}
+
+/* ..sing_in:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .3s;
+} */
+
+.sing_in a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/2946e8e2-ede5-4743-9864-a9c3f7f60140/KG-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg') top / cover no-repeat;
+}
+
+.description{
+    max-width: 1300px;
+    margin:0 auto;
+    padding: 250px;
+    font-size: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 0.5rem;
+    color:white;
+}
+
+.description h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    
+
+.description h4{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.description h5{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.start_input{
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin: auto 0;
+}
+
+.start_input_emeil{
+    width: auto;
+    padding: 9px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.start_input_button{
+    width: 50%;
+    cursor: pointer;
+    vertical-align: text-top;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+
+
+.start_input_button:hover{
+    background-color: rgba(96, 92, 92, 0.5);
+    transition: .3s;
+}
+
+hr{
+    height: 10px;
+    background: rgba(96, 92, 92, 0.5);
+}
+
+main{
+    background-color: black;
+
+}
+
+.cards{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.card{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.left_side{
+    margin: auto 0;
+    color: white;
+    width: 50%;
+}
+
+.left_side h3{
+    font-size: 54px;
+}
+
+.left_side p{
+    font-size: 28px;
+    margin: 0 auto;
+}
+.right_side{
+    margin: auto 0;
+    width: 50%;
+    
+}
+
+.left_side h3{
+    animation: color .4s 
+    ease-in-out infinite; 
+
+}
+
+/* cards 2 */
+.cards2{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ 
+ .card2{
+     width: 100%;
+     height: 70vh;
+     display: flex;
+ }
+ 
+ .left_side2{
+     margin: auto 0;
+     color: white;
+     width: 50%;
+ }
+ 
+ .left_side2 h3{
+     font-size: 54px;
+ }
+ 
+ .left_side2 p{
+     font-size: 28px;
+     margin: 0 auto;
+ }
+ .right_side2{
+     margin: auto 0;
+     width: 50%;
+     
+ }
+ 
+ .left_side2 h3{
+     animation: color .4s 
+     ease-in-out infinite; 
+ 
+ }
+ /* cards 3 */
+ .cards3{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ 
+ .card3{
+     width: 100%;
+     height: 70vh;
+     display: flex;
+ }
+ 
+ .left_side3{
+     margin: auto 0;
+     color: white;
+     width: 50%;
+ }
+ 
+ .left_side3 h3{
+     font-size: 54px;
+ }
+ 
+ .left_side3 p{
+     font-size: 28px;
+     margin: 0 auto;
+ }
+ .right_side3{
+     margin: auto 0;
+     width: 50%;
+     
+ }
+ 
+ .left_side3 h3{
+     animation: color .4s 
+     ease-in-out infinite; 
+ 
+ }
+ /* cards 4 */
+ .cards4{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ 
+ .card4{
+     width: 100%;
+     height: 70vh;
+     display: flex;
+ }
+ 
+ .left_side4{
+     margin: auto 0;
+     color: white;
+     width: 50%;
+ }
+ 
+ .left_side4 h3{
+     font-size: 54px;
+ }
+ 
+ .left_side4 p{
+     font-size: 28px;
+     margin: 0 auto;
+ }
+ .right_side4{
+     margin: auto 0;
+     width: 50%;
+     
+ }
+ 
+ .left_side2 h4{
+     animation: color .4s 
+     ease-in-out infinite; 
+ 
+ }
+
+
+@keyframes color{
+    from{
+        color: gold;
+    }to{
+        color: black;
+    }to{
+        color: red;
+    }to{
+        color: violet;
+    }
+}
+
+@keyframes color{
+    /* from{
+        color: gold;
+    }to{
+        color: black;
+    }to{
+        color: red;
+    }to{
+        color: #fff;
+    } */
+}
+
+
+/* .right_side img{
+    width: 
+} */
+/* .left_side img{
+    animation: color .4s 
+    ease-in-out infinite; 
+}
+
+@keyframes color{
+    from{
+        color: gold;
+    }to{
+        color: black;
+    }to{
+        color: red;
+    }to{
+        color: #fff;
+    }
+} */
+
+
+.styles h1{
+    font-size: 50px;
+    padding: 55px 55px 8px 55px;
+    display: flex;
+    justify-content: center;    
+    color: #fff;
+}
+
+.question{
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.question_button{
+    display: flex;
+    justify-content: start;
+    padding: 1.5rem;
+    font-size: 25px;
+    color: rgb(235, 243, 243);
+    background-color: rgba(116, 104, 104, 0.3);
+
+}
+
+
+button:hover{
+    background-color: rgba(219, 202, 202, 0.5);
+    transition: .3s;
+}
+
+
+h3{
+    font-size: 20px;
+    padding: 55px 55px 8px 55px;
+    display: flex;
+    justify-content: center;    
+    color: #fff;
+}
+
+.end_input{
+    max-width: 1300px;
+    display: flex;
+    gap: 1rem;
+    margin:10px auto 20px auto;
+
+}
+
+.end_input_emeil{
+    width: auto;
+    padding: 10px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px; 
+}
+
+.end_input_button{
+    width: 500%;
+    cursor: pointer;
+    vertical-align: text-top;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    /* padding: 0.75rem 1.5rem; */
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    color: #fff;
+}
+
+.sings1{
+    display: block;
+    margin: 20px 0 20px 7%;
+}
+
+.footer_list{
+    font-size: 14px;
+    color: #ffffffb3;
+    display: block;
+    list-style: none; 
+}
+
+
+  
+.select{
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+.languages{
+    padding: 6px 28px;
+    border-radius: 0px;
+    color: inherit;
+}
+
+.sings1 h4{
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .row{
+        gap: 39rem;
+
+    }
+    .row img{
+        width: 180px;
+        height: 100px;
+        margin: 0;
+    }
+    
+    .description{
+        padding: 190px;
+        font-size: 17px;
+        grid-gap:.5rem
+    }
+    .start_input{
+        gap: 1.5rem;
+    }
+    
+    .start_input_emeil{
+        padding: 9px;
+        height: 26px;
+        border-radius: 8px;
+        font-size: 17px;
+    }
+    .start_input_button{
+        font-size: 20px;
+        max-height: 10px;
+        padding: .2rem 1.5rem;
+        border-radius: 8px;
+        min-height: 2.8rem;
+    }
+    /* caers 1 */
+    .cards{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .card{
+        width: 100%;
+        max-height: 130vh;
+        margin: 0 auto;
+
+
+    }
+    .left_side{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .left_side h3{
+        font-size: 35px;
+    }
+    
+    .left_side p{
+        width: 80%;
+        font-size: 20px;
+    }
+    .right_side img{
+        width: 90%;
+        height: 100%;
+        
+    } 
+    /* cards 2 */
+    .cards2{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .card2{
+        width: 100%;
+        max-height: 130vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .left_side2{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .left_side2 h3{
+        font-size: 35px;
+        display: block;
+    }
+    
+    .left_side2 p{
+        width: 80%;
+        font-size: 20px;
+    }
+    .right_side2 img{
+        width: 90%;
+        height: 100%;
+        
+    }
+    /* cards 3 */
+    .cards3{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .card3{
+        width: 100%;
+        max-height: 130vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .left_side3{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .left_side3 h3{
+        font-size: 35px;
+        display: block;
+    }
+    
+    .left_side3 p{
+        width: 80%;
+        font-size: 20px;
+    }
+    .right_side3 img{
+        width: 90%;
+        height: 100%;
+        
+    }
+    /* cards 4 */
+    .cards4{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .card4{
+        width: 100%;
+        max-height: 130vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .left_side4{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .left_side4 h3{
+        font-size: 35px;
+        display: block;
+    }
+    
+    .left_side4 p{
+        width: 80%;
+        font-size: 20px;
+    }
+    .right_side4 img{
+        width: 90%;
+        height: 100%;
+        
+    }
+          /*  */
+    .question{
+        max-width: 900px;
+        gap: .5rem;
+    }
+
+    h3{
+        max-width: 900px;
+        font-size: 15px;
+        padding: 55px 55px 10px 55px;
+        display: flex;
+        justify-content: center;    
+        color: #fff;
+    }
+    
+    .end_input{
+        max-width: 900px;
+        display: flex;
+        gap: 1rem;
+        margin: 10px auto 20px auto;
+    }
+    
+    .end_input_emeil{
+        width: 50% ;
+        padding: 8px;
+        height: 20px;
+        border-radius: 8px;
+        font-size: 10px; 
+    }
+    
+    .end_input_button{
+        padding: 0;
+        height: 10px;
+        width: 40%;
+        font-size: 1rem;
+        border-radius: 10px;
+        min-height: 2.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .row{
+        gap: 27rem;
+
+    }
+    .row img{
+        width: 120px;
+        height: 70px;
+        margin: 0;
+    }
+    .right_side_header{
+        display: none;
+    }
+
+    .drop_down{
+        display: block;
+        color: #272424;
+    }
+    .banner{
+        height: 70vh;
+    }
+    .description{
+        padding: 130px;
+        font-size: 13px;
+        grid-gap: 0.1rem
+    }
+    
+    .start_input{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .start_input_emeil{
+        padding: 8px;
+        height: 25px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    .start_input_button{
+        font-size: 16px;
+        max-height: 6px;
+        padding: .1rem 1rem;
+        border-radius: 6px;
+        background-color: red;
+        color: white;
+        min-height: 2.5rem;
+    }
+    /* cards 1 */
+    .cards{
+        max-width: 1300px;
+        margin: 0 auto;
+       
+    }
+
+    .card{
+        width: 90%;
+        max-height: 45vh;
+        margin: 0 auto;         
+    }
+
+    .left_side{
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
+    .left_side h3{
+        font-size: 24px;
+    }
+    
+    .left_side p{
+        width: 80%;
+        font-size: 16px;
+    }
+    .right_side{
+        width: 50%;
+        height: 100%;    
+    }
+    /* cards 2 */
+    .cards2{
+        max-width: 1300px;
+        margin: 0 auto;
+       
+    }
+
+    .card2{
+        width: 90%;
+        max-height: 45vh;
+        margin: 0 auto;         
+    }
+
+    .left_side2{
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
+    .left_side2 h3{
+        font-size: 24px;
+    }
+    
+    .left_side2 p{
+        width: 80%;
+        font-size: 16px;
+    }
+    .right_side2{
+        width: 50%;
+        height: 100%;    
+    }
+    /* cards 3 */
+    .cards3{
+        max-width: 1300px;
+        margin: 0 auto;
+       
+    }
+
+    .card3{
+        width: 90%;
+        max-height: 45vh;
+        margin: 0 auto;         
+    }
+
+    .left_side3{
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
+    .left_side3 h3{
+        font-size: 24px;
+    }
+    
+    .left_side3 p{
+        width: 80%;
+        font-size: 16px;
+    }
+    .right_side3{
+        width: 50%;
+        height: 100%;    
+    }
+    /* cards 4 */
+    .cards4{
+        max-width: 1300px;
+        margin: 0 auto;
+       
+    }
+
+    .card4{
+        width: 90%;
+        max-height: 45vh;
+        margin: 0 auto;         
+    }
+
+    .left_side4{
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
+    .left_side4 h3{
+        font-size: 24px;
+    }
+    
+    .left_side4 p{
+        width: 80%;
+        font-size: 16px;
+    }
+    .right_side4{
+        width: 50%;
+        height: 100%;    
+    }
+    /*  */
+
+    .question{
+        max-width: 650px;
+        gap: 1rem;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .question_button{
+        padding: .3rem;
+        font-size: 16px;
+        width: 85%;
+        margin: 0;
+    }
+    .question_button{
+        display: flex;
+        justify-content: start;
+        padding: 1.1rem;
+        font-size: 18px;   
+        margin: 0 auto; 
+    }
+    h3{
+        max-width: 900px;
+        font-size: 14px;
+        padding: 55px 55px 10px 55px;
+        display: flex;
+        justify-content: center;    
+        color: #fff;
+    }
+    
+    .end_input{
+        max-width: px;
+        display: flex;
+        gap: 1rem;
+        margin:10px auto 20px auto;
+    }
+    
+    .end_input_emeil{
+        width: 50% ;
+        padding: 8px;
+        height: 20px;
+        border-radius: 8px;
+        font-size: 10px; 
+    }
+    
+    .end_input_button{
+        padding: 0;
+        height: 14px;
+        width: 50%;
+        font-size: 1rem;
+        border-radius: 10px;
+        min-height: 2.5rem;
+        
+    }
+
+    .sings1{
+        margin: 12px 0 14px 5%;
+
+    }
+}
+
+@media (max-width: 425px) {
+    /* сфквы 1 */
+    .cards{
+        max-width: 600px;
+        height: 500px;
+        margin: auto;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90%;
+    }
+    .right_side{
+        width: 100%;
+        height: 90%;
+    }
+    .right_side img{
+        width: 100%;
+        height: 300px;
+    }
+    .left_side{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left_side h3{
+        font-size: 16px;
+        width: 100%;
+        padding: 90px 0 0 0;
+    }
+    .left_side p{
+        font-size: 10px;
+        width: 90%;
+    }
+    .question_button{
+        display: flex;
+        justify-content: start;
+        padding: 0.8rem;
+        font-size: 14px;   
+        margin: 0 auto; 
+    }
+    /* cards 2 */
+    .cards2{
+        max-width: 600px;
+        height: 500px;
+        margin: auto;
+    }
+    .card2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90%;
+    }
+    .right_side2{
+        width: 100%;
+        height: 90%;
+    }
+    .right_side2 img{
+        width: 100%;
+        height: 300px;
+    }
+    .left_side2{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left_side2 h3{
+        font-size: 17px;
+        width: 100%;
+        padding: 90px 0 0 0;
+    }
+    .left_side2 p{
+        font-size: 10px;
+        width: 90%;
+    }
+    /* cards 3 */
+    .cards33{
+        max-width: 400px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .cards3{
+        max-width: 600px;
+        height: 500px;
+        margin: auto;
+    }
+    .card3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90%;
+    }
+    .right_side3{
+        width: 100%;
+        height: 90%;
+    }
+    .right_side3 img{
+        width: 100%;
+        height: 300px;
+    }
+    .left_side3{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left_side3 h3{
+        font-size: 16px;
+        width: 100%;
+        padding: 90px 0 0 0;
+        
+    }
+    .left_side3 p{
+        font-size: 10px;
+        width: 90px;
+    }
+    /* cards 4 */
+    .cards4{
+        max-width: 600px;
+        height: 500px;
+        margin: auto;
+    }
+    .card4{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 90%;
+    }
+    .right_side4{
+        width: 100%;
+        height: 90%;
+    }
+    .right_side4 img{
+        width: 100%;
+        height: 300px;
+    }
+    .left_side4{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .left_side4 h3{
+        font-size: 16px;
+        width: 100%;
+        padding: 90px 0 0 0;
+    }
+    .left_side4 p{
+        font-size: 10px;
+        width: 90%;
+    }
+    /* descrioption */
+    .row{
+        gap: 17rem;
+
+    }
+    .row img{
+        width: 120px;
+        height: 70px;
+        margin: 0;
+    }
+    .right_side_header{
+        display: none;
+    }
+
+    .drop_down{
+        display: block;
+        color: #e7e1e1;
+    }
+    .banner{
+        height: 70vh;
+    }
+    .description{
+        padding: 70px;
+        font-size: 13px;
+        grid-gap: 0.1rem
+    }
+    
+    .start_input{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .start_input_emeil{
+        padding: 8px;
+        height: 25px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    .start_input_button{
+        font-size: 16px;
+        max-height: 6px;
+        padding: .1rem 1rem;
+        border-radius: 6px;
+        background-color: red;
+        color: white;
+        min-height: 2.5rem;
+    }
+    .sings1{
+        display: block;
+        margin: 20px 0 20px 7%;
+    }
+    
+    .footer_list{
+        font-size: 10px;
+    }
+    .sings2{
+        font-size: 10px;
+    }
+    .languages{
+        padding: 4px 14px;
+        border-radius: 0px;
+        color: inherit;
+    }
+    
+    .sings1 h4{
+        color: white;
+    }
+    .styles h1{
+        font-size: 35px;
+        text-align: center;
+        padding: 55px 55px 8px 55px;
+
+    }
+
+}
+
+
+

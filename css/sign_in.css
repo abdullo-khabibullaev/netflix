@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    gap: 50rem;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.row img{
+    width: 280px;
+    height: 100px;
+    margin: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/2946e8e2-ede5-4743-9864-a9c3f7f60140/KG-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg') top / cover no-repeat;
+}
+
+.description{
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 520px;
+    padding: 20px;
+    max-width: 450px;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+
+.description h2{
+    padding: 50px;
+    text-align: start;
+    color: white;
+    font-size: 28px;
+}
+
+.sing_in_form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+.emeil{
+    width: 70%;
+    height: 40px;
+}
+
+.password{
+    width: 70%;
+    height: 40px;
+
+}
+
+.button{
+    width: 70%;
+    background-color: red;
+    height: 50px;    
+}
+
+button:hover{
+    background-color: rgba(96, 92, 92, 0.5);
+    transition: .3s;
+}
+
+
+
+.button a{
+    text-orientation: none;
+    color: white;
+}
+.hybrid-login-frim-help{
+    display: flex;
+    gap: 5rem;
+}
+
+
+.ui-binary-input input[type=checkbox]+label, .ui-binary-input input[type=radio]+label{
+    color: white; 
+    font-size: 16px; 
+}
+
+
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+
+}
+
+.hybrid-login-form-other{
+    color: white;
+    grid-gap: 1rem;
+}
+
+.login-signup-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-signup-now a{
+    text-decoration: none;
+}
+
+.login-signup-now p{
+    color: #737373;
+
+}
+
+.recaptcha-terms-of-use{
+    width: 70%;
+    margin: 0 auto;
+    display: flex; 
+    color: #737373;
+}
+
+.recaptcha-terms-of-use a{
+    text-decoration: none;
+    color: #0071eb;
+}
+
+
+@media (max-width: 1024px){
+    .row{
+        gap: 40;
+    }
+
+    .row img{
+        width: 240px;
+        height: 100px;
+    }
+
+    .description{
+   
+        top: 100px;
+        left: 280px;
+        padding: 20px;
+        max-width: 430px;
+        height: 70vh;
+
+        
+    }
+
+
+
+}
+
+@media (max-width: 768px){
+    .row{
+        gap: 40;
+    }
+
+    .row img{
+        width: 150px;
+        height: 60px;
+    }
+
+    .description{
+   
+        top: 100px;
+        left: 200px;
+        padding: 15px;
+        max-width: 380px;
+        height: 80vh;
+
+        
+    }
+
+
+
+}
+
